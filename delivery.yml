@@ -65,4 +65,4 @@ spec:
         securityContext:
           runAsUser: 1000
       serviceAccountName: default
-
+      timeoutSeconds: 30
