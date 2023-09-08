@@ -46,7 +46,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dmanagement.endpoint.health.probes.add-additional-paths="true" -Dmanagement.health.probes.enabled="true" -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: us-central1-docker.pkg.dev/kontinue/tctc-ww1-ar/tcc-test/app-ootb-supply-chain-basic-outer-pr-gitlab@sha256:ab5e704d02c5476aa8ec96dd5ee16b0937de28e3695dee84fb3c50cc18a3232e
+        image: waciuma4work/some-working-image:latest
         livenessProbe:
           httpGet:
             path: /livez
