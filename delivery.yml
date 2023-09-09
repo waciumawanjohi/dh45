@@ -46,7 +46,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dmanagement.endpoint.health.probes.add-additional-paths="true" -Dmanagement.health.probes.enabled="true" -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: waciuma4work/some-non-existent-image
+        image: waciuma4work/some-working-image:nonexistent
         livenessProbe:
           httpGet:
             path: /livez
